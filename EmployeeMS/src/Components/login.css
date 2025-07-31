@@ -1,0 +1,82 @@
+.login-page {
+  height: 100vh;
+  background: url('public/Images/employeems.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: rgba(3, 19, 33, 0.95);
+  color: #0ff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  width: 400px;
+  border: 1px solid cyan;
+  box-shadow: 0 0 12px cyan;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-box h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: cyan;
+}
+
+.login-box label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #0ff;
+  border-radius: 5px;
+  background-color: #001f2e;
+  color: #0ff;
+  margin-bottom: 10px;
+}
+
+.login-box input[type="email"]::placeholder,
+.login-box input[type="password"]::placeholder {
+  color: #9ef;
+}
+
+.checkbox-wrapper {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00d4aa;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #00f0cc;
+}
+
+.error-text {
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}

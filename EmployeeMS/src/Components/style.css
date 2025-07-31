@@ -1,0 +1,75 @@
+/* Apply to full screen */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background page */
+.loginPage {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('Images/employeems.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form box styling */
+.loginForm {
+    background: rgba(10, 25, 47, 0.95); /* navy-blue feel */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    color: white;
+    width: 320px;
+}
+
+/* Headline */
+.loginForm h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #00ffff;
+}
+
+/* Labels */
+.loginForm label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Submit button */
+.loginForm button {
+    width: 100%;
+    padding: 10px;
+    background: #00b894; /* teal green */
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.loginForm button:hover {
+    background: #00cec9;
+}
